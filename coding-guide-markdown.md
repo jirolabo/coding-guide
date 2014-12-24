@@ -46,11 +46,11 @@ code `var x = 1;`
 
 [1]: http://google.com "title"
 
-![コロ](koro.png) はインライン画像です。
+![コロ](images/koro.png) はインライン画像です。
 
 ![コロ][1] は参照画像です。
 
-[1]: koro.png
+[1]: images/koro.png
 
 
-[![コロ](koro.png)](http://google.com) は画像＋リンクです。
+[![コロ](images/koro.png)](http://google.com) は画像＋リンクです。
