@@ -8,20 +8,20 @@
 
 ### 全体の書き方
 
-1. 全体を (function(){...})(); で囲む
-1. "use strict"; を宣言
 
+- 全体をfunctionで囲む  
+- "use strict;" を追加する
 
-
+<!-- -->
 
     (function(global) {
-      "use strict;"
-
+    "use strict;"
+    
       // Your Module
       function YourModule() {
           // ...
       };
-
+    
       // Exports
       if ("process" in global) {
           module["exports"] = YourModule;
@@ -29,4 +29,5 @@
       global["YourModule"] = YourModule;
 
     })((this || 0).self || global);
+
 
