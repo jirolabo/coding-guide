@@ -31,3 +31,6 @@
     })((this || 0).self || global);
 
 
+### 数値のフォーマット
+
+ Number の toLocaleString() を使う。
